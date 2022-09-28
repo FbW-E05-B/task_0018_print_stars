@@ -14,25 +14,41 @@
 // *
 
 
-function printStars(times) {
+let starSequence = [];
 
-  let arr = [];
-
-  for (let i = 0; i <= 5; i++) {
-    for (let k = times; k > i; k++) {
-      arr.push("*");
-      console.log(arr);
-
-    }
-
-    return arr
-
+for (s = 1; s <= 3; s++) {
+  for (t = 0; t <= 2; t++) {
+    starSequence.push("*");
+    starSequence = [];
   }
 
 }
 
-console.log(arr.join(" "));
-arr = [];
+
+console.log(starSequence);
+
+
+
+
+// function printStars(times) {
+
+//   let arr = [];
+
+//   for (let i = 0; i <= 5; i++) {
+//     for (let k = times; k > i; k++) {
+//       arr.push("*");
+//       console.log(arr);
+
+//     }
+
+//     return arr
+
+//   }
+
+// }
+
+// console.log(arr.join(" "));
+// arr = [];
 
 
 // printStars(3)
